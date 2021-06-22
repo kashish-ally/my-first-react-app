@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .App-logo {
@@ -36,3 +37,54 @@
     transform: rotate(360deg);
   }
 }
+/* ITEMS STYLING */
+.section-heading{
+  margin: 100px 0 0 70px;
+  color: rgb(27, 25, 25);
+}
+#section-heading-first{
+  margin-top: 100px;
+}
+#clothing-container, #accesories-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 4%;
+}
+.item{
+  min-width: 200px;
+  width: 15%;
+  margin: 30px 10px;
+  cursor: pointer;
+}
+.item:hover{
+  box-shadow: 0 2px 10px rgb(0 0 0 / 70%);
+}
+.item img{
+  width: 100%;
+}
+.item-content{
+  padding-left: 10px;
+  margin: 10px 0;
+}
+.item-heading{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(27, 25, 25);
+  letter-spacing: 0.5px;
+}
+.item-brand{
+  margin-top: 10px;
+  font-size:12px;
+  color: rgb(110,110,110);
+}
+.item-price{
+  margin-top: 10px;
+  font-size: 15px;
+  color: #009688;
+
+}
+#container-2{
+  margin-bottom: 100px;
+}
+/* FOOTER STYLING */
