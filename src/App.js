@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import React from 'react';
 import Clothing from './Clothing';
+import Counter from './Counter';
+// import Pure from './Pure';
 
 
 function App() {
@@ -42,7 +44,11 @@ function App() {
     // )}
     // </div>
     // </div>
-    <Clothing/>
+    <div className="App">
+      {/* <Counter/> */}
+      <Clothing/>
+      {/* <Pure/> */}
+    </div>  
   );
 }
 
